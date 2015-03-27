@@ -1,6 +1,6 @@
 # sleepy
 
-A tiny utility Pedestal service to simulate a slow webserver.
+A utility Pedestal nano-service to simulate a slow webserver.
 
 ## Getting Started
 
