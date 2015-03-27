@@ -9,7 +9,7 @@ A tiny utility Pedestal service to simulate a slow webserver.
 export BOOT_JVM_OPTIONS="-client -XX:+TieredCompilation -XX:TieredStopAtLevel=1 -Xmx2g -XX:MaxPermSize=128m -XX:+UseConcMarkSweepGC -XX:+CMSClassUnloadingEnabled -Xverify:none"
 boot go wait
 ```
-Or use lein, but boot loads fast enough that I haven't bothered following the 'Reloaded' pattern here...
+Or use lein, but [boot](https://github.com/boot-clj/boot#install) loads fast enough that I haven't bothered following the 'Reloaded' pattern here...
 ```
 lein run-dev
 ```
